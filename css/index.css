@@ -218,7 +218,7 @@
         }
     }
     
-    @media screen and (max-width:1100px) {
+    @media screen and (max-width:900px) {
         .srl {
             width: 100%;
             left: 0;
@@ -245,5 +245,14 @@
             position: absolute;
             left: 2rem;
             top: 1rem;
+        }
+        div.srl1 div {
+            width: 25%;
+            display: inline-block;
+            font-size: 1.5em;
+            position: relative;
+            left: 2%;
+            margin: 3% 1%;
+            padding: 1% 0.5%;
         }
     }
