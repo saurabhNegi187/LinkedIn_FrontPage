@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html>
+
+<head lang="en">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="css/index.css">
+    <link rel="icon" href="img/linkedin.jpg">
+    <script src="js/test.js"></script>
+    <meta name="LinkedIn" content="FrontPage">
+    <title>LinkedIn</title>
+
+</head>
+
+<body>
+
+    <div class="srl" onresize="size()">
+        <div class="srl1">
+            <div class="post"><i class="fa fa-pencil-square-o fa-2x posto " aria-hidden="true" onclick="post()"> Start a post</i></div>
+
+            <hr>
+            <div><i class="fa fa-camera-retro " aria-hidden="true" style="color: rgba(46, 235, 235, 0.808);"></i>&nbsp;Photo</div>
+            <div><i class="fa fa-video-camera " aria-hidden="true" style="color: rgba(40, 26, 230, 0.80);"></i>&nbsp;Video</div>
+            <div><i class="fa fa-newspaper-o " aria-hidden="true" style="color: rgba(139, 108, 67, 0.815);"></i>&nbsp;Article</div>
+            <div><i class="fa fa-ellipsis-h " aria-hidden="true" style="color: rgb(104, 102, 100);"></i>&nbsp;More</div>
+
+
+        </div>
+
+        <div class="srl2">
+            <div>
+                <span><b>Saurabh negi</b> likes this</span>
+                <i class="fa fa-ellipsis-h fa-2x" aria-hidden="true" style="float: right; margin-right:2%"></i>
+            </div>
+            <hr>
+
+            <div>
+                <img src="img/saurabhNegiSquare.jpg" alt="Saurabh" class="profile"> <span><b>Saurabh Negi</b> <br> Software development | Chemistry<br>1d.</span>
+            </div>
+
+            <div>
+
+                <p id="textarea">My name is saurabh negi I am 2nd year student in IIT Roorkee.I am pursuing integrated chemistry
+                    <a onclick="showtext('text')" href="javascript:void(0);" style="text-decoration: none; color: grey;">...see more</a>
+                </p>
+
+
+            </div>
+            <div>
+                <img src="img/Admin_Block_IIT-R.jpg" alt="main_Building" class="full">
+            </div>
+            <div>
+                <i class="fa fa-thumbs-up" aria-hidden="true" style="float:left" id="countLikes">&nbsp;4</i>
+                <span style="position: relative; top:-0.6em;">comments 6</span>
+            </div>
+            <hr>
+            <div class="bottom">
+                <div><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true" onclick="like(this)">&nbsp;Like</i></div>
+                <div><i class="fa fa-commenting-o fa-2x" aria-hidden="true">&nbsp;Comment</i></div>
+                <div><i class="fa fa-share fa-2x" aria-hidden="true">&nbsp;Share</i></div>
+                <div><i class="fa fa-paper-plane-o fa-2x" aria-hidden="true">&nbsp;Send</i></div>
+
+            </div>
+
+        </div>
+
+
+
+        <div class="srl2">
+            <div>
+                <span><b>Lakshya Rawat</b> likes this</span>
+                <i class="fa fa-ellipsis-h fa-2x" aria-hidden="true" style="float: right; margin-right:2%"></i>
+            </div>
+            <hr>
+
+            <div>
+                <img src="img/HarrySquare.jpg" alt="Harry" class="profile"> <span><b>Harry Potter</b> <br> Auror in Ministry of Magic | Triwizard Tournament Winner <br>3d.</span>
+            </div>
+
+            <div>
+
+                <p id="textarea2">"Opportunities multiply as they are seized"
+                    <a onclick="showtext2('text')" href="javascript:void(0);" style="text-decoration: none; color: grey;">...see more</a>
+                </p>
+
+
+            </div>
+            <div>
+                <img src="img/Hogwarts.jpg" alt="Hogwarts" class="full">
+            </div>
+            <div>
+                <i class="fa fa-thumbs-up" aria-hidden="true" style="float:left" id="countLikes2">&nbsp;89</i>
+                <span style="position: relative; top:-0.6em;">comments 67</span>
+            </div>
+            <hr>
+            <div class="bottom">
+                <div><i class="fa fa-thumbs-o-up fa-2x" aria-hidden="true" onclick="like2(this)">&nbsp;Like</i></div>
+                <div><i class="fa fa-commenting-o fa-2x" aria-hidden="true">&nbsp;Comment</i></div>
+                <div><i class="fa fa-share fa-2x" aria-hidden="true">&nbsp;Share</i></div>
+                <div><i class="fa fa-paper-plane-o fa-2x" aria-hidden="true">&nbsp;Send</i></div>
+
+            </div>
+
+        </div>
+    </div>
+
+
+
+
+    <nav class="navig">
+
+        <div class="logo"><a href="#"><i class="fa fa-linkedin-square fa-2x"></i></a></div>
+        <div class="topnav"><input type="text" placeholder="Search.."></div>
+        <div class="free"> <a href="#">Try Premium free <br> for 1 month</a></div>
+
+        <div> <a href="#"><i class="fa fa-th fa-2x side" aria-hidden="true"></i><p><br>More</p></a></div>
+
+        <div class="my">
+            <a href="#"><img src="img/saurabhNegiSquare.jpg" alt="saurabh" class="me">
+
+                <p><br>Me</p>
+            </a>
+
+
+        </div>
+        <div><a href="#"><i class="fa fa-bell fa-2x side" aria-hidden="true"></i><p><br>Notification</p></a></div>
+
+        <div><a href="#"><i class="fa fa-comments fa-2x side" aria-hidden="true"></i><p><br>Messaging</p></a></div>
+
+        <div><a href="#"><i class="fa fa-briefcase fa-2x side" aria-hidden="true"></i><p><br>Jobs</p></a></div>
+        <div>
+            <a href="#"> <i class="fa fa-users fa-2x side" aria-hidden="true"></i>
+                <p><br>My&nbsp;Networks</p>
+            </a>
+        </div>
+        <div><a href="#"><i class="fa fa-home fa-2x side" aria-hidden="true" ></i><p><br>Home</p></a></div>
+
+
+
+    </nav>
+</body>
+
+</html>
