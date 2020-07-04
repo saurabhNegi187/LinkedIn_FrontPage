@@ -246,13 +246,5 @@
             left: 2rem;
             top: 1rem;
         }
-         div.srl1 div {
-            width: 25%;
-            display: inline-block;
-            font-size: 1em;
-            position: relative;
-            left: 1%;
-            margin: 3% 0%;
-            padding: 1% 0.5%;
-        }
+         
     }
