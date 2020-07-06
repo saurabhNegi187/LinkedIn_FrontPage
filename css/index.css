@@ -203,22 +203,9 @@
         margin: 0;
     }
     
-    @media screen and (max-width:1200px) {
-        nav div.free {
-            display: none;
-        }
-        nav div a p {
-            display: none;
-        }
-        .srl {
-            left: 20%;
-        }
-        nav div p {
-            display: none;
-        }
-    }
+   
     
-    @media screen and (max-width:900px) {
+    @media screen and (max-width:1200px) {
         .srl {
             width: 100%;
             left: 0;
